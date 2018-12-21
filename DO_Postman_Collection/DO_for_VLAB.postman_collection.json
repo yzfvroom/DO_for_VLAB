@@ -236,10 +236,12 @@
 								"exec": [
 									"eval(postman.getGlobalVariable(\"_f5_workflow_functions\"));",
 									"",
+									"var filename = pm.environment.get(\"do_filename\");",
+									"",
 									"var check_vals = [",
 									"        { ",
 									"            \"path\":\"localFilePath\",",
-									"            \"value\":\"/f5-declarative-onboarding-1.0.0-1.noarch.rpm$/i\",",
+									"            \"value\":\"/\" + filename + \"$/i\",",
 									"            \"op\":\"regex\"",
 									"        }",
 									"    ];",
