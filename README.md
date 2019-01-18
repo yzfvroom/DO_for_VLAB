@@ -1,4 +1,4 @@
-# Declaratiev Onboarding for VLAB
+# Declarative Onboarding for VLAB
 
 Postman files for DO for VLAB:
   - DO_for_VLAB.postman_collection.json
